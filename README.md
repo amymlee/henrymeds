@@ -17,6 +17,8 @@ POST /client/reserve
 PUT /client/confirm
 ```
 
+
+
 For POST /provider/new, the provider provides a JSON request body in the following form:
 ```
 {
