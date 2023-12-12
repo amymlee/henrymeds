@@ -41,7 +41,7 @@ For `POST /provider/availabilities`, the provider must provide a valid providerI
 }
 ```
 
-Clients can view availabilities without needing a clientId using `GET /client/availabilities`, but will need to register and obtain a clientId using POST /client/new in order to reserve an appointment with a provider. An example response body for `GET /client/availabilities` looks like this: 
+Clients can view availabilities without needing a clientId using `GET /client/availabilities`, but will need to register and obtain a clientId using `POST /client/new` in order to reserve an appointment with a provider. An example response body for `GET /client/availabilities` looks like this: 
 ```
 [
     {
