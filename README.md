@@ -82,5 +82,7 @@ To confirm a reservation using `PUT /client/confirm`, the client must pass in a 
 
 Reservations must be made 24 hours in advance. Also reservations and slots will be released if client has not confirmed their reservation after 30 minutes have passed. ReservationService details the methods and implementations in which reservations are scheduled, confirmed and released. 
 
+You can use the H2 in-memory database wired into the Spring Boot project by going into `localhost:8080/h2` when running this project to see the results. 
+
 
 
